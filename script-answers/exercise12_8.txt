@@ -1,0 +1,67 @@
+Script started on 2021-12-27 15:26:34+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="87" LINES="12"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;amir@DESKTOP-0SSU21I: /mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[01;32mamir@DESKTOP-0SSU21I[00m:[01;34m/mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[00m$ exit [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -i 907 bash[3@-it [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P[C[C[C[C[C[C[C[C[A]0;amir@DESKTOP-0SSU21I: /mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[01;32mamir@DESKTOP-0SSU21I[00m:[01;34m/mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[00m$ script script-answers/exercise12_8.txt[A]0;amir@DESKTOP-0SSU21I: /mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[01;32mamir@DESKTOP-0SSU21I[00m:[01;34m/mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[00m$ exit [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript script-answers/exercise12_8.txt[A]0;amir@DESKTOP-0SSU21I: /mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[01;32mamir@DESKTOP-0SSU21I[00m:[01;34m/mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[00m$ cd ../[K[A]0;amir@DESKTOP-0SSU21I: /mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[01;32mamir@DESKTOP-0SSU21I[00m:[01;34m/mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[00m$ docker container ls[A]0;amir@DESKTOP-0SSU21I: /mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[01;32mamir@DESKTOP-0SSU21I[00m:[01;34m/mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[00m$ exit [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -it 907 -u root -p example bash[A]0;amir@DESKTOP-0SSU21I: /mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[01;32mamir@DESKTOP-0SSU21I[00m:[01;34m/mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[00m$ exit [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec -it 907 bash -u root -p example bash[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+]0;root@9072c1da49a1: /root@9072c1da49a1:/# [K]0;root@9072c1da49a1: /root@9072c1da49a1:/# mongosh
+]0;mongosh mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	61c9bf2774e6713c8c78fe0a
+Connecting to:		[1m[32mmongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000[0m
+Using MongoDB:		5.0.5
+[1m[33mUsing Mongosh[0m:		1.1.6
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the [1mdisableTelemetry()[0m command.
+
+[1G[0J [1G[1G[0Jtest> [7G
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+[1G[0Jtest> [7G
+]0;root@9072c1da49a1: /root@9072c1da49a1:/# mongosh mongodb://the_username:the_password@localhost:3456/the_dataabase[Aroot@9072c1da49a1:/# mongosh mongodb://the_username:the_password@localhost:3456/the_da3
+
+]0;mongosh mongodb://<credentials>@localhost:3456/the_database?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	61c9bf6774bbaa939aa069a8
+Connecting to:		[1m[32mmongodb://<credentials>@localhost:3456/the_database?directConnection=true&serverSelectionTimeoutMS=2000[0m
+MongoNetworkError: connect ECONNREFUSED 127.0.0.1:3456
+]0;root@9072c1da49a1: /root@9072c1da49a1:/# [Kmongosh mongodb://the_username:the_password@localhost:3456/the_dataabase[Aroot@9072c1da49a1:/# mongosh mongodb://the_username:the_password@localhost:3456/the_da//the_datab[1P[Aoot@9072c1da49a1:/# mongosh mongodb://the_username:the_password@localhost:345/the_databa[1P[Aoot@9072c1da49a1:/# mongosh mongodb://the_username:the_password@localhost:34/the_databas[1Pe[Aot@9072c1da49a1:/# mongosh mongodb://the_username:the_password@localhost:3/the_database[K[Aoot@9072c1da49a1:/# mongosh mongodb://the_username:the_password@localhost:2/the_database[Aot@9072c1da49a1:/# mongosh mongodb://the_username:the_password@localhost:27/the_database[At@9072c1da49a1:/# mongosh mongodb://the_username:the_password@localhost:270/the_datab[1@a[Aot@9072c1da49a1:/# mongosh mongodb://the_username:the_password@localhost:2701/the_data[1@b[Aot@9072c1da49a1:/# mongosh mongodb://the_username:the_password@localhost:27017/the_dat[1@a[Aot@9072c1da49a1:/# mongosh mongodb://the_username:the_password@localhost:27017
+
+]0;mongosh mongodb://<credentials>@localhost:27017/the_database?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	61c9bf7af551ceb1f04478b9
+Connecting to:		[1m[32mmongodb://<credentials>@localhost:27017/the_database?directConnection=true&serverSelectionTimeoutMS=2000[0m
+Using MongoDB:		5.0.5
+[1m[33mUsing Mongosh[0m:		1.1.6
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+[1G[0J [1G[1G[0Jthe_database> [15Gshow dbs
+[1mthe_database[0m  41 kB
+[1G[0Jthe_database> [15Guse the_database
+already on db the_database
+[1G[0Jthe_database> [15Gshow collections
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb.todos.find({})
+[
+  {
+    _id: ObjectId("61c9be061a483c1037096021"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("61c9be061a483c1037096022"),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.find({})[32G[1G[0Jthe_database> db.todos.find({}[31G[1G[0Jthe_database> db.todos.find({[30G[1G[0Jthe_database> db.todos.find([29G[1G[0Jthe_database> db.todos.find[28G[1G[0Jthe_database> db.todos.fin[27G[1G[0Jthe_database> db.todos.fi[26G[1G[0Jthe_database> db.todos.f[25G[1G[0Jthe_database> db.todos.[24GinsertOne({text[33mtext[39m: [32m'[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ma[39m[32ms[39m[32me[39m [32mt[39m[32mh[39m[32me[39m [32mb[39m[32mi[39m[32mm[39m[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the bi[39m[57G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the b[39m[56G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the [39m[55G[32mn[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32mb[39m[32me[39m[32ml[39m[32mt[39m[32m'[39m,[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m,  [1Gd[36mdo[39mdone[33mdone[39m:[32m'[39m[1A[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m:[6G [32m'[39m[1A[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbelt'[39m, [33mdone[39m: [7Gtru[33mtrue[39m})
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId("61c9bfe3b0fede6a10cb6859")
+}
+[1G[0Jthe_database> [15Gex[1G[0Jthe_database> e[16G[1G[0Jthe_database> [15G
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+[1G[0Jthe_database> [15G
+]0;root@9072c1da49a1: /root@9072c1da49a1:/# [Kexit
+exit
+]0;amir@DESKTOP-0SSU21I: /mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[01;32mamir@DESKTOP-0SSU21I[00m:[01;34m/mnt/c/Users/Amir Angel/Documents/GitHub/Full-Stack-Open-P12[00m$ exit [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+exit
+
+Script done on 2021-12-27 15:30:44+02:00 [COMMAND_EXIT_CODE="0"]
