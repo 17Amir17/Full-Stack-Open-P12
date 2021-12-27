@@ -4,7 +4,7 @@ USER node
 
 WORKDIR /usr/src/app
 
-COPY --chown=node:node ./todo-app/todo-backend .
+COPY --chown=node:node ./todo-app/todo-backend/* .
 
 RUN npm ci --only-production
 
