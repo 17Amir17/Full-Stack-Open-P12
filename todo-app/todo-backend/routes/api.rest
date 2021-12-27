@@ -1,4 +1,9 @@
-PUT   http://localhost:3000/todos/61c9b8c1f25b7eed5fc53704 HTTP/1.1
+GET   http://localhost:3000/todos/ HTTP/1.1
+content-type: application/json
+
+###
+
+PUT   http://localhost:3000/todos/61c9c36ab8f1c70caca958d4 HTTP/1.1
 content-type: application/json
 
 {
