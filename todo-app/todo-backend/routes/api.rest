@@ -10,3 +10,13 @@ content-type: application/json
     "text": "DASDSAD",
     "done": true
 }
+
+###
+
+POST   http://localhost:3000/todos HTTP/1.1
+content-type: application/json
+
+{
+    "text": "DASDSAD",
+    "done": true
+}
